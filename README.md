@@ -51,13 +51,20 @@ awk '{print $9}' /var/log/nginx/access.log* | grep -P "[0-9]{3}" | sort | uniq -
 
 Сделаем его через Cron чтобы следил за запуском.
 
-Скрипт
+Скрипт mail_for_nginx.sh
+
+вывод crontab -e
+
+![image](https://github.com/user-attachments/assets/49d85bfa-1553-445f-8f05-8e261c5ef8b8)
 
 
+Результат:
 
+![image](https://github.com/user-attachments/assets/d54617c4-9051-4d07-a7c7-3a4f67856b7c)
 
+Вывод:
 
-
+![image](https://github.com/user-attachments/assets/130f3dad-a9ed-474f-a5e7-c3c231d5aaf3)
 
 
 
